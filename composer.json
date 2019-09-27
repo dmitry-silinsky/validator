@@ -1,0 +1,27 @@
+{
+    "name": "dmitry-silinsky/validator",
+    "description": "PHP validation library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dmitry Silinsky",
+            "email": "sil.dmitrij@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1",
+        "phpunit/phpunit": "^7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "DmitrySilinsky\\Validator\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DmitrySilinsky\\Tests\\": "tests"
+        }
+    }
+}
