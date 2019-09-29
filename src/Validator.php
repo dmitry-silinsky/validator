@@ -90,7 +90,7 @@ class Validator
             }
         }
 
-        return $this->failed();
+        return !$this->failed();
     }
 
     /**
